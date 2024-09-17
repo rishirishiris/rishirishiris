@@ -171,10 +171,22 @@ body {
                 text-decoration: underline;
             }
 
+            .mainfaq {
+                width: 70%;
+            }
+
+            .mainfaq h3 {
+                font-size:1.2em;
+            }
+
             @media (max-width: 768px) {
                 .box {
                     flex-direction: column;
                     height:auto;
+                }
+
+              .mainfaq {
+                    width: 100%;
                 }
 
                 .text {
