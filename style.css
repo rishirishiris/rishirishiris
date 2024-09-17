@@ -187,8 +187,7 @@ body {
                 }
 
                 .mainfaq {
-                    width: calc(100%-40px);
-                    box-sizing: border-box;
+                    width: calc(100% - 40px);
                 }
 
                 .text {
