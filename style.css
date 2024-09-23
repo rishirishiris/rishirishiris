@@ -18,6 +18,35 @@ body {
 .blog-image {
     width:100%;
     height:auto;
+    mask-image:
+    linear-gradient(to top, black 0%, black 100%),
+    linear-gradient(to top, transparent 0%, black 100%),
+    linear-gradient(to right, transparent 0%, black 100%),
+    linear-gradient(to bottom, transparent 0%, black 100%),
+    linear-gradient(to left, transparent 0%, black 100%);
+    mask-position:
+    center,
+    top,
+    right,
+    bottom,
+    left;
+    mask-size:
+    100% 100%,
+    100% 10px,
+    10px 100%,
+    100% 10px,
+    10px 100%;
+    mask-repeat:
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat;
+    mask-composite:
+    subtract,
+    add,
+    add,
+    add;
 }
 .logo {
     width:40%;
@@ -109,35 +138,35 @@ body {
     height: auto;
     object-fit: cover;
     margin:0 5%;
-    mask-image:
-linear-gradient(to top, black 0%, black 100%),
-linear-gradient(to top, transparent 0%, black 100%),
-linear-gradient(to right, transparent 0%, black 100%),
-linear-gradient(to bottom, transparent 0%, black 100%),
-linear-gradient(to left, transparent 0%, black 100%);
-mask-position:
-center,
-top,
-right,
-bottom,
-left;
-mask-size:
-100% 100%,
-100% 10px,
-10px 100%,
-100% 10px,
-10px 100%;
-mask-repeat:
-no-repeat,
-no-repeat,
-no-repeat,
-no-repeat,
-no-repeat;
-mask-composite:
-subtract,
-add,
-add,
-add;
+        mask-image:
+    linear-gradient(to top, black 0%, black 100%),
+    linear-gradient(to top, transparent 0%, black 100%),
+    linear-gradient(to right, transparent 0%, black 100%),
+    linear-gradient(to bottom, transparent 0%, black 100%),
+    linear-gradient(to left, transparent 0%, black 100%);
+    mask-position:
+    center,
+    top,
+    right,
+    bottom,
+    left;
+    mask-size:
+    100% 100%,
+    100% 10px,
+    10px 100%,
+    100% 10px,
+    10px 100%;
+    mask-repeat:
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat;
+    mask-composite:
+    subtract,
+    add,
+    add,
+    add;
 }
 
 .footer {
