@@ -185,15 +185,14 @@ body {
                 grid-gap: 5%;
                 padding: 20px 10%;
                 margin-right: 6%;
-                grid-template-columns: repeat(3, 1fr);
+                grid-template-columns: auto auto auto;
             }
 
             .grid-box {
                 background-color: rgba(0,0,0,0.8);
                 color: white;
                 padding: 1em;
-                width:30%;
-                box-sizing: border-box;
+                
                 text-align: center;
                 font-size: 20px;
                 border-radius: 5px;
