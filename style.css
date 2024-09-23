@@ -196,6 +196,7 @@ body {
                 font-size: 20px;
                 border-radius: 20px;
                 box-shadow: 0 3px 5px black;
+                text-align: left;
             }
 
             @media (max-width: 768px) {
