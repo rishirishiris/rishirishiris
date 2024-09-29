@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--Are You Known?-->
+
+<html>
+    <head>
+        <link rel="stylesheet" href="/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <title>In-Flight Madness</title>
+        <meta name="description" content="Do you have what it takes to be a flight attendant?">
+        <meta name="title" content="In-Flight Madness">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    </head>
+    <body style="height:100%;">
+        <script>
+            function navigateToPage(button) {
+                const buttonText = button.textContent.trim().toLowerCase();
+    
+                if (buttonText === 'home') {
+                    window.location.href = '/';
+                } else {
+                    const pageUrl = '/' + buttonText + '.html';
+                    window.location.href = pageUrl;
+                }
+            }
+        </script>
+        <div class="topbar">
+                <img src="https://i.imgur.com/J0u7ZY5.png" class="logo"></img>
+                <div class="nav-items">
+                    <button class="nav-items-button" onclick="navigateToPage(this)">Home</button>
+                    <button class="nav-items-button" onclick="navigateToPage(this)">Blog</button>
+                    <button class="nav-items-button" onclick="navigateToPage(this)">FAQ</button>
+                    <button class="nav-items-button" onclick="navigateToPage(this)">Contact</button>
+                    <button class="nav-items-button download" onclick="navigateToPage(this)">Download</button>
+                </div>
+            </div>
+        <div class="main" style="background-color:rgba(0,0,0,0.3); padding:1%; width:98%;">
+            <div class="topbar" style="position: static; visibility:hidden;">
+                <img src="https://i.imgur.com/J0u7ZY5.png" class="logo"></img>
+                <div class="nav-items">
+                    <button class="nav-items-button" >Home</button>
+                    <button class="nav-items-button" >Blog</button>
+                    <button class="nav-items-button" >FAQ</button>
+                    <button class="nav-items-button" >Contact</button>
+                    <button class="nav-items-button download" >Download</button>
+                </div>
+            </div>
+            <div style="margin:5%; padding:5%; border-radius:5px; background-color:rgba(0,0,0,0.8);">
+                <h2>Terms of Service for In-Flight Madness</h2>
+                <p style="color:#fff;">Last Updated: September 29, 2024
+
+Welcome to In-Flight Madness! These Terms of Service ("Terms") govern your access to and use of our game, including any content, features, and functionality available on or through In-Flight Madness. By downloading, installing, or using the game, you agree to be bound by these Terms. If you do not agree, please do not use the game.
+1. Acceptance of Terms
+
+By accessing or using In-Flight Madness, you confirm that you are at least 13 years old (or the age of majority in your jurisdiction) and that you agree to these Terms.
+2. Account Creation
+
+To access certain features of the game, such as leaderboards and multiplayer, you may need to create an account. You agree to:
+
+    Provide accurate and complete information during registration.
+    Keep your account credentials confidential.
+    Notify us immediately of any unauthorized use of your account.
+
+3. User Conduct
+
+You agree not to engage in any of the following prohibited activities:
+
+    Cheating, exploiting bugs, or using hacks to gain an unfair advantage.
+    Harassing or threatening other players.
+    Using offensive or inappropriate language or content.
+    Sharing your account with others or selling your account.
+
+4. Game Content
+
+All content within In-Flight Madness, including graphics, sounds, and gameplay elements, is the property of White Sun Interactive or its licensors and is protected by copyright and other intellectual property laws. You may not reproduce, distribute, or create derivative works from any content without express permission.
+
+5. Termination
+
+We reserve the right to suspend or terminate your access to the game at any time, with or without cause, including if you violate these Terms.
+6. Limitation of Liability
+
+To the fullest extent permitted by law, White Sun Interactive shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of or inability to use In-Flight Madness.
+7. Changes to Terms
+
+We may modify these Terms from time to time. If we make significant changes, we will notify you via the game or by other means. Your continued use of the game after changes are made constitutes your acceptance of the revised Terms.
+8. Governing Law
+
+These Terms shall be governed by and construed in accordance with the laws of the Republic of Bulgaria, without regard to its conflict of law principles.
+9. Contact Us
+
+If you have any questions about these Terms, please contact us at: 
+
+E-mail: hristo@inflightmadness.com
+Address: Sofia Center, Buzludzha St 35, 1463 Sofia, Bulgaria</p>
+            </div>
+        </div>
+        <div class="footer">
+                <div class="footer-column">
+                    <h3>More In-Flight Madness</h3>
+                    <ul>
+                        <li><a href="https://youtube.com/@InFlightMadnessGame">YouTube</a></li>
+                        <li><a href="https://twitter.com/InFlightMadnessGame">Twitter</a></li>
+                        <li><a href="https://instagram.com/InFlightMadnessGame">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Developers</h3>
+                    <ul>
+                        <li><a href="/aboutus.html">About Us</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="/terms.html">Terms of Service</a></li>
+                        <li><a href="/privacypolicy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+    </body>
+</html>
