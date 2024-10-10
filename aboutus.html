@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--Are You Known?-->
+
+<html>
+    <head>
+        <link rel="stylesheet" href="/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <title>In-Flight Madness</title>
+        <meta name="description" content="Do you have what it takes to be a flight attendant?">
+        <meta name="title" content="In-Flight Madness">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    </head>
+    <body style="height:100%;">
+        <script>
+            function navigateToPage(button) {
+                const buttonText = button.textContent.trim().toLowerCase();
+    
+                if (buttonText === 'home') {
+                    window.location.href = '/';
+                } else {
+                    const pageUrl = '/' + buttonText + '.html';
+                    window.location.href = pageUrl;
+                }
+            }
+        </script>
+        <div class="topbar">
+                <img src="https://i.imgur.com/J0u7ZY5.png" class="logo"></img>
+                <div class="nav-items">
+                    <button class="nav-items-button" onclick="navigateToPage(this)">Home</button>
+                    <button class="nav-items-button" onclick="navigateToPage(this)">Blog</button>
+                    <button class="nav-items-button" onclick="navigateToPage(this)">FAQ</button>
+                    <button class="nav-items-button" onclick="navigateToPage(this)">Contact</button>
+                    <button class="nav-items-button download" onclick="navigateToPage(this)">Download</button>
+                </div>
+            </div>
+        <div class="main" style="background-color:rgba(0,0,0,0.3); padding:1%; width:98%;">
+            <div class="topbar" style="position: static; visibility:hidden;">
+                <img src="https://i.imgur.com/J0u7ZY5.png" class="logo"></img>
+                <div class="nav-items">
+                    <button class="nav-items-button" >Home</button>
+                    <button class="nav-items-button" >Blog</button>
+                    <button class="nav-items-button" >FAQ</button>
+                    <button class="nav-items-button" >Contact</button>
+                    <button class="nav-items-button download" >Download</button>
+                </div>
+            </div>
+            <div style="margin:5%; padding:5%; border-radius:5px; background-color:rgba(0,0,0,0.8);">
+                <h2>In-Flight Madness Developers</h2>
+                <h4>Hristo:</h4>
+                <p>Hristo Saratovic was born in 1997 in Sofia, Bulgaria. When he was 17, he met Simeon and Nikolai in high school. The group became best friends, mostly due to their shared passion for computers and coding. 
+                Due to this shared passion, the friends decided to start their own computer game company, White Sun Interactive, in 2019. 
+                The group then started their adventure into game development by starting work on In-Flight Madness in 2020. 
+                Hristo primarily does the coding and technical side of In-Flight Madness, and also composes some of the music for the game when he has time.
+                When he's not working on In-Flight Madness, Hristo enjoys coding, composing music, swimming, video gaming, hiking, racing, and cooking.</p>
+                <h4>Simeon:</h4>
+                <p>Simeon Radoslav was born and raised in 1997 in Plovdiv, Bulgaria. When he was 17, he moved to Sofia and met Hristo and Nikolai in high school, where they then started White Sun Interactive and began working on In-Flight Madness years later.
+                Simeon primarily does the artwork and 3D modeling for In-Flight Madness, as well as the network infrastructure so the game can support multiplayer when it releases.
+                When he's not working on In-Flight Madness, being with his wife, or caring for his two young children, Simeon loves video gaming, drawing, and coding.</p>
+                <h4>Nikolai:</h4>
+                <p>Nikolai Koulov was born in 1997 in Sofia, Bulgaria. When he was 17, he met Simeon and Hristo in high school and started White Sun Interactive and thus In-Flight Madness with them years later.
+                Nikolai primarily does the writing, story, music, and sound design for In-Flight Madness.
+                When he's not working on In-Flight Madness, he loves reading, creating music, coding, video gaming, watching TV, and working out.</p>
+
+<br><br>
+<br>1. 
+</span>
+            </div>
+        </div>
+        <div class="footer">
+                <div class="footer-column">
+                    <h3>More In-Flight Madness</h3>
+                    <ul>
+                        <li><a href="https://youtube.com/@InFlightMadnessGame">YouTube</a></li>
+                        <li><a href="https://twitter.com/InFlightMadnessGame">Twitter</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Developers</h3>
+                    <ul>
+                        <li><a href="/aboutus.html">About Us</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="/terms.html">Terms of Service</a></li>
+                        <li><a href="/privacypolicy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+    </body>
+</html>
