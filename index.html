@@ -26,16 +26,23 @@
                 }
             }
             function updateVideoBackgroundHeight() {
-              const firstBox = document.querySelector('.box');
-              const videoBackgroundContainer = document.querySelector('.box-video');
-        
-              if (firstBox && videoBackgroundContainer) {
-                const boxHeight = firstBox.offsetHeight;
-                videoBackgroundContainer.style.height = `${boxHeight}px`;
-              }
-            }
-            updateVideoBackgroundHeight();
-            window.addEventListener('resize', updateVideoBackgroundHeight);
+      const firstBox = document.querySelector('.box');
+      const videoBackgroundContainer = document.querySelector('.video-background-container');
+
+      if (firstBox && videoBackgroundContainer) {
+        const boxHeight = firstBox.offsetHeight;
+        videoBackgroundContainer.style.height = `${boxHeight}px`;
+      }
+    }
+
+    // Ensure the resizing function runs after all media (images, videos) are fully loaded
+    window.onload = function () {
+      // Run the resize function
+      updateVideoBackgroundHeight();
+
+      // Optionally, listen for resize events after page load
+      window.addEventListener('resize', updateVideoBackgroundHeight);
+    };
         </script>
 
         <div class="main">
