@@ -25,7 +25,19 @@
                     window.location.href = pageUrl;
                 }
             }
+            function updateVideoBackgroundHeight() {
+              const firstBox = document.querySelector('.box');
+              const videoBackgroundContainer = document.querySelector('.video-background-container');
+        
+              if (firstBox && videoBackgroundContainer) {
+                const boxHeight = firstBox.offsetHeight;
+                videoBackgroundContainer.style.height = `${boxHeight}px`;
+              }
+            }
+            updateVideoBackgroundHeight();
+            window.addEventListener('resize', updateVideoBackgroundHeight);
         </script>
+
         <div class="main">
             <div class="topbar">
                 <img src="https://i.imgur.com/J0u7ZY5.png" class="logo"></img>
