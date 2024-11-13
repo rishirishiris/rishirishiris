@@ -126,9 +126,10 @@ body {
     background-color: rgba(0, 0, 0, 0.2);
     overflow: hidden;
     padding: 4em 0;
-    height: 40%;
+    height: 50vh;
     box-sizing: border-box;
     position: relative;
+    flex-direction: column;
 }
 
 
