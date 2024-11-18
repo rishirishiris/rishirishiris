@@ -269,8 +269,19 @@ p {
 
 .photogrid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: auto;
+    grid-template-columns: repeat(3, 33vw);
+}
+
+.photochild {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+.imagescreenshots {
+    width: 60%;
 }
 
 @media (max-width: 768px) {
