@@ -290,6 +290,11 @@ p {
         height:auto;
     }
 
+    .photogrid {
+        display: grid;
+        grid-template-columns: repeat(1, 100vw);
+    }
+
     .mainfaq {
         width: calc(100% - 40px);
     }
